@@ -1,0 +1,27 @@
+:root {
+    --primery-font-family: Open Sans, sans-serif;
+    --font-weight: 400;
+    /* Colors */
+    --primery-text: #9DA4BD;
+    --primery-white: #FFFFFF;
+    --accent: #FF6C00;
+}
+
+body {
+    background-color: var(--primery-white);
+    font-family: var(--primery-font-family);
+    font-weight: var(--font-weight);
+    color: var(--primery-text);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.list {
+    list-style: none;
+}
