@@ -1,10 +1,21 @@
+/* colors
+accent #FF6C00
+maine white #FF6C00
+title rgba(48, 48, 48, 1)
+title #9DA4BD
+ text #555555 
+rgba(85, 85, 85, 1)
+ */
 :root {
     --primery-font-family: Open Sans, sans-serif;
     --font-weight: 400;
     /* Colors */
-    --primery-text: #9DA4BD;
-    --primery-white: #FFFFFF;
-    --accent: #FF6C00;
+    --primery-text:
+        rgba(85, 85, 85, 1);
+    --primery-white: rgba(255, 255, 255, 1);
+    --accent: rgba(255, 108, 0, 1);
+    --text-grey-light: rgba(157, 164, 189, 0.6);
+    --primery-grey: rgba(48, 48, 48, 1);
 }
 
 body {
@@ -24,4 +35,139 @@ body {
 
 .list {
     list-style: none;
+}
+
+.logo {
+    color: #303030;
+}
+
+.barbershop-header,
+.hero,
+.prices,
+.contacts,
+.booking {
+    background-color: #757572;
+}
+
+.barbershop-header a {
+    color: var(--primery-white);
+}
+
+/* hero */
+.hero-text-light {
+    color: var(--text-grey-light);
+
+}
+
+.hero-text-dark {
+    color: rgba(157, 164, 189, 1);
+
+}
+
+.hero-title {
+    color: var(--primery-white);
+}
+
+/* about */
+.about {
+    border-color: var(--primery-white);
+}
+
+.about-sub-text {
+    color: var(--primery-grey);
+}
+
+.about-title {
+    color: var(--primery-grey);
+}
+
+.about-description {
+    color:
+        rgba(85, 85, 85, 1);
+}
+
+/* btn */
+.btn {
+    color: var(--primery-grey);
+    text-transform: uppercase;
+    border: var(--accent) solid 1px;
+    border-radius: 25px;
+}
+
+/* prices */
+.prices-text-light {
+    color: var(--text-grey-light);
+}
+
+.prices-title {
+    color: var(--primery-white);
+}
+
+.prices-list {
+    color:
+        rgba(157, 164, 189, 1);
+}
+
+.traditional-text,
+.traditional-title {
+    color: var(--primery-grey);
+}
+
+.traditional-deskription {
+    color: var(--primery-text);
+}
+
+.traditional-list {
+    color: var(--primery-text);
+}
+
+.sup {
+    color: var(--accent);
+}
+
+/* barbers */
+.barbers-text,
+.barbers-title,
+.barber-name {
+    color: var(--primery-grey);
+
+}
+
+.barbers-deskription {
+    color: var(--accent);
+}
+
+/* portfolio */
+.portfolio-text {
+    color: var(--primery-grey);
+}
+
+/* booking */
+.booking-title {
+    color: var(--primery-white);
+}
+
+/* contacts */
+
+.contacts-title {
+    color: var(--primery-white);
+}
+
+
+.contacts-link,
+.contacts-text {
+    color: rgba(157, 164, 189, 1);
+}
+
+.contacts-description {
+    color: var(--primery-white);
+}
+
+/* copiright */
+.copyright {
+    color: rgba(157, 164, 189, 1);
+}
+
+.copyright-link {
+    color: var(--primery-grey);
 }
