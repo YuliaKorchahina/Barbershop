@@ -29,6 +29,15 @@ body {
     text-decoration: none;
 }
 
+.instagram,
+.youtube {
+    color: var(--primery-grey);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+}
+
 .list {
     list-style: none;
 }
@@ -49,41 +58,82 @@ body {
     background-color: #757572;
 }
 
+/* розібратися із вкладенням, перебиває колір посилнь на ютуб та інстаграм */
 .barbershop-header a {
     color: var(--primery-white);
+}
+
+.nav-link {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
 }
 
 /* hero */
 .hero-text-light {
     color: var(--text-grey-light);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+}
 
+.hero-title {
+    font-family: Raleway, sans-serif;
+    color: var(--primery-white);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
 }
 
 .hero-text-dark {
     color: rgba(157, 164, 189, 1);
-
-}
-
-.hero-title {
-    color: var(--primery-white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
 }
 
 /* about */
-.about {
+.about-text-light {
+    text-transform: uppercase;
     border-color: var(--primery-white);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+
 }
 
-.about-sub-text {
+.about-title,
+.features-title,
+.barbers-title,
+.booking-title,
+.contacts-title {
+    font-family: raleway, sans-serif;
     color: var(--primery-grey);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
 }
 
-.about-title {
-    color: var(--primery-grey);
+.about-description-primery,
+.about-description-secondary {
+    color: var(--primery-text);
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
-.about-description {
-    color:
-        rgba(85, 85, 85, 1);
+.about-description-primery {
+    font-size: 18px;
+    line-height: 1.66;
+}
+
+.about-description-secondary {
+    font-size: 14px;
+    line-height: 1.85;
 }
 
 /* btn */
@@ -92,6 +142,10 @@ body {
     text-transform: uppercase;
     border: var(--accent) solid 1px;
     border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
 }
 
 /* prices */
@@ -108,43 +162,90 @@ body {
         rgba(157, 164, 189, 1);
 }
 
-.traditional-text,
-.traditional-title {
+/* features */
+.features-text,
+.features-title {
     color: var(--primery-grey);
 }
 
-.traditional-deskription {
-    color: var(--primery-text);
+.features-text {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
 }
 
-.traditional-list {
+.features-description {
     color: var(--primery-text);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+}
+
+.features-list {
+    color: var(--primery-text);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: 0.05em;
 }
 
 .sup {
     color: var(--accent);
 }
 
+.features-rate {
+    color: var(--primery-grey);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: 0.05em;
+}
+
+.features-benefits {
+    color: var(--primery-grey);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+}
+
 /* barbers */
-.barbers-text,
-.barbers-title,
+.barbers-text {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+}
+
 .barber-name {
     color: var(--primery-grey);
-
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.38;
+    letter-spacing: 0.02em;
 }
 
 .barbers-deskription {
     color: var(--accent);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: 0.02em;
 }
 
 /* portfolio */
 .portfolio-text {
     color: var(--primery-grey);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
 }
 
 /* booking */
 .booking-title {
     color: var(--primery-white);
+
 }
 
 /* contacts */
@@ -154,18 +255,45 @@ body {
 }
 
 
+
+.contacts-address {
+    font-style: normal;
+}
+
+.contacts-link,
+.contacts-text,
+.contacts-map {
+    color: rgba(157, 164, 189, 1);
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 1.66;
+}
+
+.contacts-map {
+    font-weight: 700;
+}
+
 .contacts-link,
 .contacts-text {
-    color: rgba(157, 164, 189, 1);
+    font-weight: 400;
+
 }
 
 .contacts-description {
     color: var(--primery-white);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
 }
 
 /* copiright */
 .copyright {
     color: rgba(157, 164, 189, 1);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.02em;
 }
 
 .copyright-link {
